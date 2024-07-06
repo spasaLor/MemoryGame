@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:  rgb(213, 174, 18);
+    font-size: 1.1em;
+}
+
+.scoreboard{
+    display: flex;
+    gap:30px;
+}

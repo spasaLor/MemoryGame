@@ -1,0 +1,37 @@
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap:20px;
+    padding: 0px 20px;
+}
+
+.game-over-modal{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 80vh;
+    width: 98vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.content{
+    width: 350px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+button{
+    padding: 6px 10px;
+    background-color:  rgb(213, 174, 18);
+    border: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
